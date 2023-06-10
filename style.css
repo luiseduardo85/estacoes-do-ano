@@ -1,0 +1,58 @@
+body{
+    margin: 25px;
+    font-family: 'Rubik', sans-serif;
+    background-color: blanchedalmond;
+}
+h1{
+    font-size: 3.5em;
+}
+p{
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+footer{
+    float: right;
+    color: steelblue;
+}
+.title-image{
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+    border-radius: 15px;
+}
+.card{
+    width: 45%;
+}
+.verao{
+    float: left;
+}
+.outono{
+    float: right;
+}
+.primavera{
+    float: left;
+}
+.inverno{
+    float: right;
+}
+
+@media (max-width: 680px){
+    .logo{
+        width: 100px;
+    }
+    h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 20px;
+        display: block;
+        text-align: justify;
+    }
+    .card > img{
+        width: 100%;
+        display: inline;
+        margin-bottom: 15px;
+    }
+}
